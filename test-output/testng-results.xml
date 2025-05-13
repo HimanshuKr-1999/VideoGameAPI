@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-05-13T02:01:33 IST" name="Suite" finished-at="2025-05-13T02:01:37 IST" duration-ms="3517">
+    <groups>
+    </groups>
+    <test started-at="2025-05-13T02:01:33 IST" name="Test" finished-at="2025-05-13T02:01:37 IST" duration-ms="3517">
+      <class name="TestCases.TC_VideoGameAPI">
+        <test-method signature="TC_GetAllVideoGames()[pri:1, instance:TestCases.TC_VideoGameAPI@6bd61f98]" started-at="2025-05-13T02:01:33 IST" name="TC_GetAllVideoGames" finished-at="2025-05-13T02:01:35 IST" duration-ms="2136" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_GetAllVideoGames -->
+        <test-method signature="TC_addNewVideoGame()[pri:2, instance:TestCases.TC_VideoGameAPI@6bd61f98]" started-at="2025-05-13T02:01:35 IST" name="TC_addNewVideoGame" finished-at="2025-05-13T02:01:36 IST" duration-ms="192" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_addNewVideoGame -->
+        <test-method signature="TC_GetAVideoGame()[pri:3, instance:TestCases.TC_VideoGameAPI@6bd61f98]" started-at="2025-05-13T02:01:36 IST" name="TC_GetAVideoGame" finished-at="2025-05-13T02:01:37 IST" duration-ms="1054" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_GetAVideoGame -->
+        <test-method signature="TC_DeleteAVideoGame()[pri:4, instance:TestCases.TC_VideoGameAPI@6bd61f98]" started-at="2025-05-13T02:01:37 IST" name="TC_DeleteAVideoGame" finished-at="2025-05-13T02:01:37 IST" duration-ms="48" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_DeleteAVideoGame -->
+      </class> <!-- TestCases.TC_VideoGameAPI -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
