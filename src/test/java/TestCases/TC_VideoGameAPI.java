@@ -18,29 +18,20 @@ public class TC_VideoGameAPI {
 	public void TC_GetAllVideoGames() {	
 		
 
-//        	Response response =get("https://reqres.in/api/users?page=2");
-//		
-//		
-//		System.out.println(response.getStatusCode());
-//		System.out.println(response.getTime());
-//		System.out.println(response.getBody().asPrettyString());
-//		System.out.println(response.getHeader("content-type"));
-//		
-//		int statusCode = response.getStatusCode();
-//		Assert.assertEquals(statusCode,200);
+
 Response Res=
           given()
      .when()
          .get("http://localhost:8080/app/videogames")
      .then()
-         .statusCode(200)
+      //   .statusCode(200)
          
          .extract().response();
 String ResponseHeader= Res.asPrettyString();
 int statusCodeCheck = Res.getStatusCode();
 System.out.println(statusCodeCheck);
 Assert.assertEquals(statusCodeCheck, 200);
-System.out.println("Respomse Header:"+ ResponseHeader);
+System.out.println("Response Header:"+ ResponseHeader);
 
     }
 	
@@ -133,7 +124,7 @@ Assert.assertEquals(ResponseBody.contains("Record Added Successfully"), true);
     	
     	
     	baseURI="http://localhost:8080/app/videogames";
-    	Response res=
+//    	Response res=
     	given()
     		.when()
     			.get("/1")
@@ -147,6 +138,12 @@ Assert.assertEquals(ResponseBody.contains("Record Added Successfully"), true);
 //    	System.out.println("Response :"+res.body());
 //    	
     }
+    
+   
+    
+    
+    
+    
     @Test(priority=4)
     public void TC_DeleteAVideoGame() {
     	
